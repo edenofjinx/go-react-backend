@@ -31,7 +31,7 @@ type Movie struct {
 	MPAARating string `json:"mpaa_rating"`
 	CreatedAt time.Time `json:"-"`
 	UpdateAt time.Time `json:"-"`
-	MovieGenre []MovieGenre `json:"genres"`
+	MovieGenre map[int]string `json:"genres"`
 }
 
 // Genre is the type of genre
