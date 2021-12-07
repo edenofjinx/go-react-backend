@@ -50,7 +50,7 @@ type MovieGenre struct {
 	GenreID   int       `json:"-"`
 	Genre     Genre     `json:"genre"`
 	CreatedAt time.Time `json:"-"`
-	UpdateAt  time.Time `json:"-"`
+	UpdatedAt time.Time `json:"-"`
 }
 
 // User is the type for users
